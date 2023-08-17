@@ -17,7 +17,7 @@ Mods: {
 				}
 
 				MouseoverIconSize: {
-					Label: Wielkość ikony na kursorze Mouseover Icon Size
+					Label: Wielkość ikony na kursorze
 					Tooltip: Jak duża ma być ikona oznaczania na kursorze
 				}
 			}
@@ -26,13 +26,13 @@ Mods: {
 				DisplayName: Konfiguracja serwera
 
 				PingsPerPlayer: {
-					Label: Maksymalna ilość oznaczen na gracza
+					Label: Maksymalna ilość oznaczeń na gracza
 					Tooltip: Przekroczenie tego limitu wyłączy najstarsze oznaczenie danego gracza
 				}
 
 				PingDuration: {
-					Label: Czas trwania/dlugość oznaczenia
-					Tooltip: Wyrażony w sekundach. Jeżeli maksymalne, czas trwania jest nieskończony
+					Label: Czas trwania/długość oznaczenia
+					Tooltip: Wyrażony w sekundach. Jeżeli max, czas trwania jest nieskończony
 				}
 
 				PingCooldown: {
