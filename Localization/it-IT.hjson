@@ -1,59 +1,59 @@
 Mods: {
 	Pings: {
-		// Keybinds.PingObjectAtCursor.DisplayName: Segnala oggetto al cursore
+		Keybinds.PingObjectAtCursor.DisplayName: Segnala oggetto al cursore
 
 		Configs: {
 			ClientConfig: {
-				// DisplayName: Configurazione client
+				DisplayName: Configurazione client
 
 				CircularParticles: {
-					// Label: Particelle circolari su oggetto segnalato
-					// Tooltip: Se le particelle dovrebbero circolare intorno all'oggetto segnalato
+					Label: Particelle circolari su oggetto segnalato
+					Tooltip: Se le particelle dovrebbero circolare intorno all'oggetto segnalato
 				}
 
 				Highlight: {
-					// Label: Evidenzia oggetto segnalato
-					// Tooltip: Se l'oggetto dovrebbe apparire evidenziato (simile all'effetto speleologo sui minerali)
+					Label: Evidenzia oggetto segnalato
+					Tooltip: Se l'oggetto dovrebbe apparire evidenziato (simile all'effetto speleologo sui minerali)
 				}
 
 				MouseoverIconSize: {
-					// Label: Dimensione icona sospesa
-					// Tooltip: Dimensioni delle icone sospese segnalate
+					Label: Dimensione icona sospesa
+					Tooltip: Dimensioni delle icone sospese segnalate
 				}
 			}
 
 			ServerConfig: {
-				// DisplayName: Configurazione server
+				DisplayName: Configurazione server
 
 				PingsPerPlayer: {
-					// Label: Quantità massima di segnali per giocatore
-					// Tooltip: Superare questo limite cancellerà il segnale più vecchio di quel giocatore.
+					Label: Quantità massima di segnali per giocatore
+					Tooltip: Superare questo limite cancellerà il segnale più vecchio di quel giocatore.
 				}
 
 				PingDuration: {
-					// Label: Durata segnale
-					// Tooltip: In secondi. Se massimo valore, durata infinita
+					Label: Durata segnale
+					Tooltip: In secondi. Se massimo valore, durata infinita
 				}
 
 				PingCooldown: {
-					// Label: Cooldown tra segnali
-					// Tooltip: In secondi
+					Label: Cooldown tra segnali
+					Tooltip: In secondi
 				}
 			}
 
-			// Common.AcceptClientChanges: Solo il proprietario del mondo può cambiare la configurazione! Fallo in giocatore singolo.
+			Common.AcceptClientChanges: Solo il proprietario del mondo può cambiare la configurazione! Fallo in giocatore singolo.
 		}
 
 		PingStatus: {
-			// PlayerNameUnknown: Sconosciuto
-			// PlayerRendezvous: "{0} Ritrovato"
+			PlayerNameUnknown: Sconosciuto
+			PlayerRendezvous: "{0} Ritrovato"
 		}
 
 		PingFeedback: {
-			// PingCD: Ping CD: {0}s
-			// RemovedPing: Segnale rimosso.
-			// PingAnything: "{0} trovato '{1}'!"
-			// PingPlayer: "{0} ha segnato un punto d'incontro!"
+			PingCD: Ping CD: {0}s
+			RemovedPing: Segnale rimosso.
+			PingAnything: "{0} trovato '{1}'!"
+			PingPlayer: "{0} ha segnato un punto d'incontro!"
 		}
 	}
 }
