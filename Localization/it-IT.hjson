@@ -50,7 +50,7 @@ Mods: {
 		}
 
 		PingFeedback: {
-			PingCD: Ping CD: {0}s
+			PingCD: CD segnale: {0}s
 			RemovedPing: Segnale rimosso.
 			PingAnything: "{0} trovato '{1}'!"
 			PingPlayer: "{0} ha segnato un punto d'incontro!"
