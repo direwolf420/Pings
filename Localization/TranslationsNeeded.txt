@@ -5,5 +5,5 @@ fr-FR, 0/21, 0%, missing 21
 es-ES, 0/21, 0%, missing 21
 ru-RU, 21/21, 100%, missing 0
 zh-Hans, 0/21, 0%, missing 21
-pt-BR, 0/21, 0%, missing 21
+pt-BR, 21/21, 100%, missing 0
 pl-PL, 21/21, 100%, missing 0

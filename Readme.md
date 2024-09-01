@@ -33,3 +33,4 @@ List of localization contributors:
 * Polish: **Taco**
 * Russian: **GodHybrid**
 * Italian: **Sea Noodle**
+* Brazilian Portuguese: **mimig298**
