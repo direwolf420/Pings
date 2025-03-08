@@ -1,57 +1,61 @@
 Mods: {
 	Pings: {
-		// Keybinds.PingObjectAtCursor.DisplayName: Ping Object at Cursor
+		Keybinds: {
+			PingObjectAtCursor: {
+				DisplayName: "Objekt am Cursor anpingen"
+			}
+		}
 
 		Configs: {
 			ClientConfig: {
-				// DisplayName: Client Config
+				DisplayName: "Client-Konfiguration"
 
 				CircularParticles: {
-					// Label: Circular Particles on Ping Object
-					// Tooltip: If particles should circulate around the pinged object
+					Label: "Kreisförmige Partikel um angepingtes Objekt"
+					Tooltip: "Ob Partikel um das angepingte Objekt kreisen sollen"
 				}
 
 				Highlight: {
-					// Label: Highlight Pinged Object
-					// Tooltip: If the object should appear highlighted (similar to the spelunker effect on ores)
+					Label: "Angepingtes Objekt hervorheben"
+					Tooltip: "Ob das Objekt hervorgehoben erscheinen soll (ähnlich dem Spelunker-Effekt auf Erzen)"
 				}
 
 				MouseoverIconSize: {
-					// Label: Mouseover Icon Size
-					// Tooltip: How big the mouseover size for ping icons is
+					Label: "Größe des Mouseover-Icons"
+					Tooltip: "Wie groß die Mouseover-Größe für Ping-Icons ist"
 				}
 			}
 
 			ServerConfig: {
-				// DisplayName: Server Config
+				DisplayName: "Server-Konfiguration"
 
 				PingsPerPlayer: {
-					// Label: Maximum amount of pings per player
-					// Tooltip: Exceeding this limit will delete the oldest ping of that player
+					Label: "Maximale Anzahl von Pings pro Spieler"
+					Tooltip: "Wenn dieses Limit überschritten wird, wird der älteste Ping dieses Spielers gelöscht"
 				}
 
 				PingDuration: {
-					// Label: The lifetime/duration of a ping
-					// Tooltip: In seconds. If max, infinite duration
+					Label: "Lebensdauer/Dauer eines Pings"
+					Tooltip: "In Sekunden. Wenn max, unendliche Dauer"
 				}
 
 				PingCooldown: {
-					// Label: Cooldown between pings
-					// Tooltip: In seconds
+					Label: "Abklingzeit zwischen Pings"
+					Tooltip: "In Sekunden"
 				}
 			}
 		}
 
 		PingStatus: {
-			// PlayerNameUnknown: Unknown
-			// PlayerRendezvous: "{0} Rendezvous"
+			PlayerNameUnknown: "Unbekannt"
+			PlayerRendezvous: "{0} Rendezvous"
 		}
 
 		PingFeedback: {
-			// PingCD: Ping CD: {0}s
-			// RemovedPing: Removed Ping.
-			// PingAnything: "{0} found '{1}'!"
-			// PingPlayer: "{0} marked a rendezvous location!"
+			PingCD: "Ping CD: {0}s"
+			RemovedPing: "Ping entfernt."
+			PingAnything: "{0} hat '{1}' gefunden!"
+			PingPlayer: "{0} hat einen Rendezvous-Ort markiert!"
 		}
 	}
 }
