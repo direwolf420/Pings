@@ -1,61 +1,57 @@
 Mods: {
-    Pings: {
-        Keybinds: {
-            PingObjectAtCursor: {
-                DisplayName: Objekt am Cursor anpingen
-            }
-        }
+	Pings: {
+		Keybinds.PingObjectAtCursor.DisplayName: Objekt am Cursor anpingen
 
-        Configs: {
-            ClientConfig: {
-                DisplayName: Client-Konfiguration
+		Configs: {
+			ClientConfig: {
+				DisplayName: Client-Konfiguration
 
-                CircularParticles: {
-                    Label: Kreisförmige Partikel um angepingtes Objekt
-                    Tooltip: Ob Partikel um das angepingte Objekt kreisen sollen
-                }
+				CircularParticles: {
+					Label: Kreisförmige Partikel um angepingtes Objekt
+					Tooltip: Ob Partikel um das angepingte Objekt kreisen sollen
+				}
 
-                Highlight: {
-                    Label: Angepingtes Objekt hervorheben
-                    Tooltip: Ob das Objekt hervorgehoben erscheinen soll (ähnlich dem Spelunker-Effekt auf Erzen)
-                }
+				Highlight: {
+					Label: Angepingtes Objekt hervorheben
+					Tooltip: Ob das Objekt hervorgehoben erscheinen soll (ähnlich dem Spelunker-Effekt auf Erzen)
+				}
 
-                MouseoverIconSize: {
-                    Label: Größe des Mouseover-Icons
-                    Tooltip: Wie groß die Mouseover-Größe für Ping-Icons ist
-                }
-            }
+				MouseoverIconSize: {
+					Label: Größe des Mouseover-Icons
+					Tooltip: Wie groß die Mouseover-Größe für Ping-Icons ist
+				}
+			}
 
-            ServerConfig: {
-                DisplayName: Server-Konfiguration
+			ServerConfig: {
+				DisplayName: Server-Konfiguration
 
-                PingsPerPlayer: {
-                    Label: Maximale Anzahl von Pings pro Spieler
-                    Tooltip: Wenn dieses Limit überschritten wird, wird der älteste Ping dieses Spielers gelöscht
-                }
+				PingsPerPlayer: {
+					Label: Maximale Anzahl von Pings pro Spieler
+					Tooltip: Wenn dieses Limit überschritten wird, wird der älteste Ping dieses Spielers gelöscht
+				}
 
-                PingDuration: {
-                    Label: Lebensdauer/Dauer eines Pings
-                    Tooltip: In Sekunden. Wenn max, unendliche Dauer
-                }
+				PingDuration: {
+					Label: Lebensdauer/Dauer eines Pings
+					Tooltip: In Sekunden. Wenn max, unendliche Dauer
+				}
 
-                PingCooldown: {
-                    Label: Abklingzeit zwischen Pings
-                    Tooltip: In Sekunden
-                }
-            }
-        }
+				PingCooldown: {
+					Label: Abklingzeit zwischen Pings
+					Tooltip: In Sekunden
+				}
+			}
+		}
 
-        PingStatus: {
-            PlayerNameUnknown: Unbekannt
-            PlayerRendezvous: {0} Rendezvous
-        }
+		PingStatus: {
+			PlayerNameUnknown: Unbekannt
+			PlayerRendezvous: "{0} Rendezvous"
+		}
 
-        PingFeedback: {
-            PingCD: Ping CD: {0}s
-            RemovedPing: Ping entfernt.
-            PingAnything: {0} hat '{1}' gefunden!
-            PingPlayer: {0} hat einen Rendezvous-Ort markiert!
-        }
-    }
+		PingFeedback: {
+			PingCD: Ping CD: {0}s
+			RemovedPing: Ping entfernt.
+			PingAnything: "{0} hat '{1}' gefunden!"
+			PingPlayer: "{0} hat einen Rendezvous-Ort markiert!"
+		}
+	}
 }

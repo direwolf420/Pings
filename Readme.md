@@ -34,3 +34,4 @@ List of localization contributors:
 * Russian: **GodHybrid**
 * Italian: **Sea Noodle**
 * Brazilian Portuguese: **mimig298**
+* German: **Lighty**
